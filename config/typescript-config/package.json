@@ -1,9 +1,11 @@
 {
-  "name": "@atj/typescript-config",
+  "name": "@atj/tsconfig",
   "version": "0.0.0",
+  "files": [
+    "library.json",
+    "node.json",
+    "next.json"
+  ],
   "private": true,
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  }
+  "license": "MIT"
 }

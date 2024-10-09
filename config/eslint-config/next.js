@@ -9,6 +9,7 @@ module.exports = {
     'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
+    'next/core-web-vitals',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -18,7 +19,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['jsx-a11y', '@typescript-eslint'],
+  plugins: ['jsx-a11y', '@typescript-eslint', 'simple-import-sort'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -45,6 +46,7 @@ module.exports = {
     'jsx-a11y/role-has-required-aria-props': 'warn',
     'jsx-a11y/role-supports-aria-props': 'warn',
     'react/no-unknown-property': 'error',
+    'simple-import-sort/imports': 'error',
   },
   settings: {
     react: {
