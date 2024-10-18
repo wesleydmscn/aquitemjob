@@ -6,7 +6,7 @@ import { Github, HandHeart } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="grid min-h-screen justify-center bg-zinc-50">
+    <main className="grid w-screen h-screen justify-center bg-zinc-50">
       <div className="flex w-screen h-16 items-center justify-between px-18 border-b border-zinc-200">
         <Logo />
         <nav>
@@ -18,7 +18,7 @@ export default function Home() {
           </ul>
         </nav>
       </div>
-      <div className="w-full flex flex-col justify-center items-center my-64">
+      <div className="w-full flex flex-col justify-center items-center my-16">
         <p className="w-[598px] text-4xl text-zinc-900 font-medium mb-4">A forma mais fácil de conectar recrutadores e desenvolvedores</p>
         <p className="w-[598px] text-zinc-600 mb-6">Facilitamos conexões diretas entre recrutadores e desenvolvedores, oferecendo uma experiência simples, ágil e totalmente gratuita.</p>
         <div className="flex w-[598px] space-x-[24px] mb-16">
